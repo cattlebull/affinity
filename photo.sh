@@ -13,7 +13,7 @@ check_dependency "wine"
 check_dependency "winetricks"
 check_dependency "wget"
 check_dependency "curl"
-check_dependency "7z" # Manjaro uses 7z instead of 7z
+check_dependency "7z" # Manjaro uses 7z
 check_dependency "tar"
 
 if [ -n "$missing_deps" ]; then
